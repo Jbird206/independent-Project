@@ -1,0 +1,101 @@
+
+.sidebar {
+  border: 2px solid white;
+}
+
+.column {
+  border: 2px solid purple;
+  width: 275px;
+  float: left;
+  padding: 4px;
+  margin: 3px;
+}
+
+
+.my-class {
+  margin: 12px;
+  border: 2px solid green;
+  padding: 4px;
+  clear: both;
+}
+
+.columnDiv {
+  border: 2px solid purple;
+  clear: both;
+}
+
+
+
+.columnDiv2 {
+  border: 2px solid red;
+  clear: both;
+}
+
+.sidebar2 {
+  border: 2px solid blue;
+}
+
+@media screen and (min-width: 768px) {
+  .column {
+    width: 300px;
+    float: left;
+    padding: 4px;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 600px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 225px) {
+  .column {
+    width: 225px;
+    float: left;
+    padding: 4px;
+  }
+}
+
+@media screen and (max-width: 500px) and (min-width: 200px) {
+  body {
+    background-color: teal;
+    color: white;
+  }
+}
+
+.sidebar3 p img{
+  display: block;
+}
+
+
+  
+.important {
+  color: red;
+}
+
+.unimportant {
+  color: blue;
+}
+
+.aboutme {
+  font-style: italic;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+
+p {
+  background-color: green;
+}
+
+p.slow {
+  background-color: yellow;
+}
+
+p.slow .stop {
+  background-color: red;
+}
