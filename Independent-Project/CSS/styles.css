@@ -1,76 +1,27 @@
-
-.sidebar {
-  border: 2px solid white;
+h1 {
+  text-align: center;
 }
 
-.column {
-  border: 2px solid purple;
-  width: 275px;
-  float: left;
-  padding: 4px;
-  margin: 3px;
+body {
+  background-color: silver;
 }
 
-
-.my-class {
-  margin: 12px;
-  border: 2px solid green;
-  padding: 4px;
-  clear: both;
+h2 {
+  font-weight: bold;
+  font-weight: 400;
+  font-size: 500;
+  text-align: center;
 }
 
-.columnDiv {
-  border: 2px solid purple;
-  clear: both;
+ .aboutme {
+  font-style: italic;
 }
 
 
-
-.columnDiv2 {
-  border: 2px solid red;
-  clear: both;
+img.main {
+  align: center;
 }
 
-.sidebar2 {
-  border: 2px solid blue;
-}
-
-@media screen and (min-width: 768px) {
-  .column {
-    width: 300px;
-    float: left;
-    padding: 4px;
-  }
-}
-
-@media screen and (max-width: 1000px) and (min-width: 600px) {
-  body {
-    background-color: black;
-    color: white;
-  }
-}
-
-@media screen and (min-width: 225px) {
-  .column {
-    width: 225px;
-    float: left;
-    padding: 4px;
-  }
-}
-
-@media screen and (max-width: 500px) and (min-width: 200px) {
-  body {
-    background-color: teal;
-    color: white;
-  }
-}
-
-.sidebar3 p img{
-  display: block;
-}
-
-
-  
 .important {
   color: red;
 }
@@ -79,23 +30,53 @@
   color: blue;
 }
 
-.aboutme {
-  font-style: italic;
+.my-class {
+  margin: 12px;
+  border: 2px solid blue;
+  padding: 4px;
+  clear: both;
+ font-style: italic;
 }
 
-body {
-  font-family: sans-serif;
+.container {
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 35px;
+    background-color: #f5f5f5;
+    border: 5px solid #ccc;
+    border-radius: 8px;
+  }
+
+  .container2 {
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #ACF4D2;
+    border: 5px solid #ccc;
+    border-radius: 4px;
+    }
+
+    .container3 {
+      margin-left: auto;
+      padding-left: 15px;
+      padding-right: 15px;
+      background-color: #DC61A3;
+      border: 5px solid #ccc;
+      border-radius: 4px;
+      }
+
+    .column {
+  width: 300px;
+  float: left;
+  border: 2px solid purple;
+  padding: 4px;
+  margin: 3px;
 }
 
-
-p {
-  background-color: green;
-}
-
-p.slow {
-  background-color: yellow;
-}
-
-p.slow .stop {
-  background-color: red;
+.column2 {
+width: 300px;
+float: left;
+border: 2px solid violet;
+padding: 4px;
+margin: 3px;
 }
