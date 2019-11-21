@@ -18,3 +18,7 @@ https://github.com/Jbird206/jbird206.github.io.git
 * a
 * img
 * div and span
+
+# Setup instructions
+
+
