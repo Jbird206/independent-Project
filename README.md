@@ -21,4 +21,6 @@ https://github.com/Jbird206/jbird206.github.io.git
 
 # Setup instructions
 
-Go to https://github.com/Jbird206/independent-Project for the reository page and download the project.
+ * Go to https://github.com/Jbird206/independent-Project for the repository page and download the project. 
+ * Unzip the project folder and open using Atom, (https://atom.io/)
+ 
