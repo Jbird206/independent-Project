@@ -5,8 +5,19 @@ involving a game server management and modifications. Some HTML elements not req
 
 _Jason McGrady_
 https://github.com/Jbird206/jbird206.github.io.git
-## CSS sheet contains, box models, floats and cascading.
-### Bootstrap also included.
+## CSS sheet contains the following
+* Columns (4)
+* Containers (3)
+* Rows
+* Body
+* My-Class
+
+## Bootstrap classes also included
+* Jumbotron
+* Container-Fluid
+* Panel Heading, Default, Body
+* btn-primary
+
 #### Exibit the use of the *following* HTML tags, p, h, ul, ol, li, em, strong, a, img, div & span.
 * p
 * h
@@ -22,5 +33,5 @@ https://github.com/Jbird206/jbird206.github.io.git
 # Setup instructions
 
  * Go to https://github.com/Jbird206/independent-Project for the repository page and download the project. 
- * Unzip the project folder and open using Atom, (https://atom.io/)
+ * Unzip the project folder *and* open using Atom, (https://atom.io/)
  
